@@ -85,6 +85,7 @@ window.SITE = {
 
   // Иайдо: фото в блок иайдо
   iaidoPhotos: [
+    { src: "assets/iaido-demo.jpg",      caption: "Показательное выступление по иайдо" },
     { src: "assets/festival-podium.jpg", caption: "Городские соревнования, фестиваль боевых искусств «Восточный ветер», 2026" }
   ],
 
