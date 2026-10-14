@@ -75,9 +75,6 @@ window.SITE = {
   gallery: [
     { src: "assets/hall-control.jpg",    caption: "Отработка техники: контроль" },
     { src: "assets/hall-throw.jpg",      caption: "Отработка техники: бросок" },
-    { src: "assets/kids-training.jpg",   caption: "Детская группа" },
-    { src: "assets/seminar-3.jpg",       caption: "Учебно-методический семинар: показ техники" },
-    { src: "assets/seminar-4.jpg",       caption: "Учебно-методический семинар: показ перед детской группой" },
     { src: "assets/seminar-2.jpg",       caption: "Учебно-методический семинар: высокое укеми" },
     { caption: "Групповое фото клуба" }
   ],
@@ -88,7 +85,6 @@ window.SITE = {
 
   // Иайдо: фото в блок иайдо
   iaidoPhotos: [
-    { src: "assets/iaido-demo.jpg",      caption: "Показательное выступление по иайдо" },
     { src: "assets/festival-podium.jpg", caption: "Городские соревнования, фестиваль боевых искусств «Восточный ветер», 2026" }
   ],
 
