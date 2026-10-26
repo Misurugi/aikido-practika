@@ -59,11 +59,11 @@
   <div class="wrap top__in">
     <a href="#top" class="brand"><img src="assets/logo-praktika.jpg" alt="" width="44" height="44"><span>Практика</span></a>
     <nav class="nav" aria-label="Разделы">
-      <a href="#about">О направлении</a>
+      <a href="#schedule">Расписание</a>
       <a href="#training">Тренировки</a>
+      <a href="#about">О направлении</a>
       <a href="#photos">Фото</a>
       <a href="#coaches">Тренеры</a>
-      <a href="#schedule">Расписание</a>
       <a href="#iaido">Иайдо</a>
       <a href="#contacts">Контакты</a>
     </nav>
@@ -83,10 +83,9 @@
         <li>ОФП</li><li>Страховки</li><li>Броски</li><li>Контроли</li><li>Уходы</li><li>Удары</li>
       </ul>
       <div class="hero__cta">
-        <a class="btn" data-phone href="#contacts">Записаться на пробное занятие</a>
+        <a class="btn" data-phone data-free-text="Записаться на пробную тренировку" href="#contacts">Записаться на бесплатную пробную тренировку</a>
         <a class="btn btn--ghost" href="#schedule">Смотреть расписание</a>
       </div>
-      <p class="hero__free" data-free>Первая тренировка — бесплатно</p>
     </div>
     <div class="hero__logo">
       <img class="hero__club" src="assets/logo-praktika.jpg" alt="Логотип клуба «Практика»" width="360" height="360">
@@ -94,6 +93,60 @@
         <img src="assets/logo-federation.jpg" alt="Международная федерация прикладного айкидо" width="84" height="82">
         <span>Клуб входит в&nbsp;Международную федерацию прикладного айкидо</span>
       </a>
+    </div>
+  </div>
+</section>
+
+<section id="schedule" class="sec">
+  <div class="wrap">
+    <h2>Расписание</h2>
+    <div class="legend" id="legend"></div>
+    <div class="week" id="week"></div>
+    <p class="note" id="scheduleNote"></p>
+
+    <h3 class="sub">Стоимость</h3>
+    <div class="prices" id="prices"></div>
+    <p class="price-free" id="priceFree">Первая тренировка — бесплатно</p>
+    <p class="note" id="priceNote"></p>
+  </div>
+</section>
+
+<section id="training" class="sec sec--tint">
+  <div class="wrap">
+    <h2>Как проходят тренировки</h2>
+    <div class="grid3">
+      <article class="card"><span class="tag">обязательно</span><h3>Разминка</h3><p>Общая физическая подготовка: готовим тело к нагрузке и развиваем силу, гибкость, выносливость.</p></article>
+      <article class="card"><h3>Страховка (укеми)</h3><p>Учимся падать: кувырки, падения вперёд, назад и в сторону. Это основа безопасности и первое, что отрабатывается.</p></article>
+      <article class="card"><h3>Передвижения (тай-сабаки)</h3><p>Развороты, входы, уходы с линии атаки. Правильная геометрия важнее скорости.</p></article>
+      <article class="card"><h3>Техники</h3><p>Ответ на захваты, удары руками и ногами, угрозу ножом. Каждая техника заканчивается контролем.</p></article>
+      <article class="card card--opt"><span class="tag tag--opt">по желанию</span><h3>Работа с оружием</h3><p>Боккен (деревянный меч) и иайто (тренировочный меч). Необязательная часть занятия — для тех, кто хочет пойти дальше.</p></article>
+    </div>
+    <p class="note">Занятия строятся с учётом подготовки ученика и сочетают общую физическую подготовку с техниками самообороны.</p>
+
+    <h3 class="sub">Пояса и аттестации</h3>
+    <p>Прогресс подтверждается аттестацией по официальной программе федерации. Пояса у взрослых и детей одинаковые, но у детей до 12 лет своя программа: она помогает освоить взрослую.</p>
+    <div class="belts2">
+      <div class="belts2__col">
+        <h4>Взрослые</h4>
+        <ul class="belts">
+          <li style="--b:#e5b82e"><i></i>5 кю<span>жёлтый</span></li>
+          <li style="--b:#e5812e"><i></i>4 кю<span>оранжевый</span></li>
+          <li style="--b:#3e9a4d"><i></i>3 кю<span>зелёный</span></li>
+          <li style="--b:#2a62b8"><i></i>2 кю<span>синий</span></li>
+          <li style="--b:#7a4f2e"><i></i>1 кю<span>коричневый</span></li>
+          <li style="--b:#111111"><i></i>1 дан<span>чёрный</span></li>
+        </ul>
+      </div>
+      <div class="belts2__col">
+        <h4>Дети до 12 лет</h4>
+        <ul class="belts">
+          <li style="--b:#e5b82e"><i></i>5 кю<span>жёлтый</span></li>
+          <li style="--b:#e5812e"><i></i>4 кю<span>оранжевый</span></li>
+          <li style="--b:#3e9a4d"><i></i>3 кю<span>зелёный</span></li>
+          <li style="--b:#2a62b8"><i></i>2 кю<span>синий</span></li>
+          <li style="--b:#7a4f2e"><i></i>1 кю<span>коричневый</span></li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -114,6 +167,20 @@
         <li><b>Воля и дисциплина.</b> Терпение и самоорганизация.</li>
       </ul>
     </div>
+  </div>
+</section>
+
+<section id="photos" class="sec sec--tint">
+  <div class="wrap">
+    <h2>Как это выглядит</h2>
+    <div class="gallery gallery--wide" id="gallery"></div>
+  </div>
+</section>
+
+<section id="coaches" class="sec">
+  <div class="wrap">
+    <h2>Кто ведёт</h2>
+    <div class="coaches" id="coachesList"></div>
   </div>
 </section>
 
@@ -169,74 +236,6 @@
       </article>
 
     </div>
-  </div>
-</section>
-
-<section id="training" class="sec">
-  <div class="wrap">
-    <h2>Как проходят тренировки</h2>
-    <div class="grid3">
-      <article class="card"><span class="tag">обязательно</span><h3>Разминка</h3><p>Общая физическая подготовка: готовим тело к нагрузке и развиваем силу, гибкость, выносливость.</p></article>
-      <article class="card"><h3>Страховка (укеми)</h3><p>Учимся падать: кувырки, падения вперёд, назад и в сторону. Это основа безопасности и первое, что отрабатывается.</p></article>
-      <article class="card"><h3>Передвижения (тай-сабаки)</h3><p>Развороты, входы, уходы с линии атаки. Правильная геометрия важнее скорости.</p></article>
-      <article class="card"><h3>Техники</h3><p>Ответ на захваты, удары руками и ногами, угрозу ножом. Каждая техника заканчивается контролем.</p></article>
-      <article class="card card--opt"><span class="tag tag--opt">по желанию</span><h3>Работа с оружием</h3><p>Боккен (деревянный меч) и иайто (тренировочный меч). Необязательная часть занятия — для тех, кто хочет пойти дальше.</p></article>
-    </div>
-    <p class="note">Занятия строятся с учётом подготовки ученика и сочетают общую физическую подготовку с техниками самообороны.</p>
-
-    <h3 class="sub">Пояса и аттестации</h3>
-    <p>Прогресс подтверждается аттестацией по официальной программе федерации. Пояса у взрослых и детей одинаковые, но у детей до 12 лет своя программа: она помогает освоить взрослую.</p>
-    <div class="belts2">
-      <div class="belts2__col">
-        <h4>Взрослые</h4>
-        <ul class="belts">
-          <li style="--b:#e5b82e"><i></i>5 кю<span>жёлтый</span></li>
-          <li style="--b:#e5812e"><i></i>4 кю<span>оранжевый</span></li>
-          <li style="--b:#3e9a4d"><i></i>3 кю<span>зелёный</span></li>
-          <li style="--b:#2a62b8"><i></i>2 кю<span>синий</span></li>
-          <li style="--b:#7a4f2e"><i></i>1 кю<span>коричневый</span></li>
-          <li style="--b:#111111"><i></i>1 дан<span>чёрный</span></li>
-        </ul>
-      </div>
-      <div class="belts2__col">
-        <h4>Дети до 12 лет</h4>
-        <ul class="belts">
-          <li style="--b:#e5b82e"><i></i>5 кю<span>жёлтый</span></li>
-          <li style="--b:#e5812e"><i></i>4 кю<span>оранжевый</span></li>
-          <li style="--b:#3e9a4d"><i></i>3 кю<span>зелёный</span></li>
-          <li style="--b:#2a62b8"><i></i>2 кю<span>синий</span></li>
-          <li style="--b:#7a4f2e"><i></i>1 кю<span>коричневый</span></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="photos" class="sec sec--tint">
-  <div class="wrap">
-    <h2>Как это выглядит</h2>
-    <div class="gallery gallery--wide" id="gallery"></div>
-  </div>
-</section>
-
-<section id="coaches" class="sec">
-  <div class="wrap">
-    <h2>Кто ведёт</h2>
-    <div class="coaches" id="coachesList"></div>
-  </div>
-</section>
-
-<section id="schedule" class="sec sec--tint">
-  <div class="wrap">
-    <h2>Расписание</h2>
-    <div class="legend" id="legend"></div>
-    <div class="week" id="week"></div>
-    <p class="note" id="scheduleNote"></p>
-
-    <h3 class="sub">Стоимость</h3>
-    <div class="prices" id="prices"></div>
-    <p class="price-free" id="priceFree">Первая тренировка — бесплатно</p>
-    <p class="note" id="priceNote"></p>
   </div>
 </section>
 

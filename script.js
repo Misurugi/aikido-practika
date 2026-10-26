@@ -7,7 +7,10 @@
 
   // кнопки «Позвонить» → прямой набор
   document.querySelectorAll("[data-phone]").forEach(function (a) { a.href = tel(main); });
-  if (!S.club.firstFree) document.querySelectorAll("[data-free]").forEach(function (e) { e.hidden = true; });
+  if (!S.club.firstFree) {
+    document.querySelectorAll("[data-free]").forEach(function (e) { e.hidden = true; });
+    document.querySelectorAll("[data-free-text]").forEach(function (e) { e.textContent = e.getAttribute("data-free-text"); });
+  }
 
   // легенда + расписание по дням
   $("legend").innerHTML = S.directions.map(function (d) {
